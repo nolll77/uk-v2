@@ -65,7 +65,7 @@ resource "aws_ecs_task_definition" "ecs_task_definition" {
 }
 
 # create ecs service
-/*
+
 resource "aws_ecs_service" "ecs_service" {
   name                               = "${var.project_name}-${var.environment}-service"
   launch_type                        = "FARGATE"
@@ -94,4 +94,3 @@ resource "aws_ecs_service" "ecs_service" {
     container_port   = 80
   }
 }
-*/
